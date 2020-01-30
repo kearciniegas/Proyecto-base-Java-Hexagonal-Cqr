@@ -1,0 +1,14 @@
+jasypt:
+   encryptor:
+      password: ${jasyptpwd}
+      algorithm: PBEWithMD5AndDES
+
+server:
+   port: 
+   servlet:
+      context-path: /comun
+
+tiempoHealthCheck:
+   tiempo:   
+
+

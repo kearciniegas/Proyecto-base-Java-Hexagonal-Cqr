@@ -1,0 +1,24 @@
+rootProject.name = 'comun'
+
+include ':comun', 
+		':comun:comun-infraestructura', 
+		':comun:comun-aplicacion-comando', 
+		':comun:comun-dominio',
+		':comun:comun-test'
+
+include ':comando',
+		':comando:comando-infraestructura',
+		':comando:comando-aplicacion', 
+		':comando:comando-dominio'
+
+include ':consulta',
+		':consulta:consulta-infraestructura',
+		':consulta:consulta-aplicacion', 
+		':consulta:consulta-dominio'
+
+project(':comun').projectDir = new File('../comun')
+
+project(':comun:comun-infraestructura').projectDir = new File('../comun/comun-infraestructura')
+project(':comun:comun-aplicacion-comando').projectDir = new File('../comun/comun-aplicacion-comando')
+project(':comun:comun-dominio').projectDir = new File('../comun/comun-dominio')
+project(':comun:comun-test').projectDir = new File('../comun/comun-test')

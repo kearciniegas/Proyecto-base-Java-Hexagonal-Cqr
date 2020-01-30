@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+String prefix = projectDir.parentFile.name
+allprojects { p ->
+   apply plugin: 'eclipse' 
+   if(eclipse.project.name != "comun")   
+   	eclipse.project.name = "${prefix}-${p.name}"
+}
