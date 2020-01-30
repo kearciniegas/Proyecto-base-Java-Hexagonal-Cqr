@@ -58,4 +58,4 @@ los valores devuelto .Se esperaria aumentar el tiempo cada vez que un bloque se 
 
 
 
-*Cualquier duda o aporte con este bloque contactar a juan.botero@ceiba.com.co o juan.castano@ceiba.com.co*# Proyecto-base-Java-Hexagonal-Cqrs-
+*Cualquier duda o aporte con este bloque contactar a kear241007@gmail.com*# Proyecto-base-Java-Hexagonal-Cqrs-
